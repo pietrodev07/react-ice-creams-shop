@@ -1,10 +1,17 @@
 import Header from './components/Header/Header'
+import IceCreams from './components/IceCreams/IceCreams'
 
-const App = () => {
+function App() {
 
   return (
 
-    <Header />
+    <div className="app">
+
+      <Header />
+
+      <IceCreams />
+
+    </div>
 
   )
 
