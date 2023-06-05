@@ -1,9 +1,10 @@
+import Header from './components/Header/Header'
 
 const App = () => {
 
   return (
 
-    <h1>ICE CREAMS SHOP</h1>
+    <Header />
 
   )
 
